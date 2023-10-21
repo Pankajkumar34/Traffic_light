@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.light {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 74px;
+    height: 74px;
+    margin: 10px;
+}
+
+.light_main {
+    background: linear-gradient(202deg, #120c10, #6bfff8);
+}
+
+.sub_light_box {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+/* .lights {
+    border: 1px solid white;
+    height: 290px;
+    border-radius: 10px;
+    background: white;
+} */
+img {
+    width: 100%;
+    max-width: 236px;
+}
+.light_design{
+    position: relative;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: 11px 0;
+}
+.light_support {
+    margin: -20px 0;
+}
+
+.lightBase {
+    border: 1px solid;
+    width: 36%;
+    height: 117px;
+    lighting-color: currentcolor;
+    margin: auto;
+    background: #4c4c4c;
+    border-bottom-right-radius: 10px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    display: flex;
+}
+
+.lightframe {
+    position: absolute;
+    top: -15px;
+    width: 600px;
+    left: -72px;
+}
